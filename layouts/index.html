@@ -9,7 +9,7 @@
     <meta name="description"
           content="Suvajit Kumar Arja, CSE student and developer. Explore projects, skills, achievements and experience.">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 
 <body>
@@ -119,8 +119,8 @@
 
                 <div class="image-glow"></div>
 
-                <img src="/images/IMG_20260910_212530.jpg"
-                     alt="Suvajit Kumar Arja">
+           <img src="{{ "images/IMG_20260910_212530.jpg" | relURL }}"
+     alt="Suvajit Kumar Arja">
 
             </div>
 
@@ -433,7 +433,7 @@
     </footer>
 
 
-    <script src="/js/script.js"></script>
+    <script src="{{ "js/script.js" | relURL }}"></script>
 
 </body>
 </html>
